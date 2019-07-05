@@ -1,0 +1,207 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/businesses/subcategories.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIVEHl0AA4pWckosMlTSAVFGSrEAAAAA//8DAH7JYgwPAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:09 GMT
+      Etag:
+      - W/"f43f170812ac7a7044d06fff192207b2"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - c23e15b8-6b55-46dc-ab81-63ae8f194db4
+      X-Runtime:
+      - '0.069157'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/events/subcategories.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIVEHl0AA4pWckosMlTSAVFGSrEAAAAA//8DAH7JYgwPAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:09 GMT
+      Etag:
+      - W/"f43f170812ac7a7044d06fff192207b2"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - f32b5870-af83-443b-a9b5-d018d10aa7df
+      X-Runtime:
+      - '0.025536'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/listings/subcategories.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIVEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:09 GMT
+      Etag:
+      - W/"5e728571aea1b149882084485eeec1e1"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 8e7a0928-3ed8-44d4-bdb3-1c2fb8a58108
+      X-Runtime:
+      - '0.053718'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/streetscape_assets/subcategories.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIVEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:09 GMT
+      Etag:
+      - W/"5e728571aea1b149882084485eeec1e1"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 942ff5ae-f70d-4285-bfd2-f0e53823bded
+      X-Runtime:
+      - '0.054977'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/developments/subcategories.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"8a03e5dbc55465b6a6684f598a2abd5c"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 6875578b-76dd-4211-9ff4-74ca10d923fd
+      X-Runtime:
+      - '0.063646'
+    status:
+      code: 200
+      message: OK
+version: 1

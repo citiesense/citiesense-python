@@ -1,0 +1,101 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/streetscape_assets.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAK7wHF0AA1TLsQrCMBAG4He5uZbc5ZK7P5urSyWDDuJQkIAouggdpO+ug6hdP/gOTzqfqFAd
+        h4YddXS936isLPZwY5c3jA8qGvqMEIPM3Sds11Pb7BfBXJKa/4ol1mgpflO9TG2oi6RgJAdndtO/
+        qioZHqBugvn4AgAA//8DAMaDUI2oAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '138'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 18:15:10 GMT
+      Etag:
+      - W/"0d63582f6614ae9c10eb5dbba3b57292"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Next-Page:
+      - ''
+      X-Offset:
+      - ''
+      X-Page:
+      - '1'
+      X-Per-Page:
+      - '20'
+      X-Prev-Page:
+      - ''
+      X-Request-Id:
+      - 92604dfc-deaa-446a-84f3-fb8680c36b7a
+      X-Runtime:
+      - '0.157031'
+      X-Total:
+      - '3'
+      X-Total-Pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/streetscape_assets/RaOf9V.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIAK7wHF0AA6pWykxRslIKSvRPswxT0lHKyc9TstI1N9aztDA3tDACCiSWKFmZGOiZWRoYGwD5
+        iSkpRanFxUpWeaU5ObUAAAAA//8DAP4WJPk/AAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '87'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 18:15:10 GMT
+      Etag:
+      - W/"fb5f7aaa6de19640ac6b2007370a7cf9"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 4cbdfefb-e64b-4fc2-8a1a-4cfa22402d32
+      X-Runtime:
+      - '0.062795'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,60 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/listings.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIAPTXHF0AA6TQywrCMBAF0H+ZdQ1JJs2jSzcOWHUpKC4KEbHEWp+tiP9uFxVFcGO2A4e59y7v
+        sPWQQT3NqW0ggbCvIBsYxVAbjaY7FGfIFDIhnHEqgcL74/p0gqy6hPBIeu8WY7p9+JSh5NaK3qNj
+        iqfK2V++zpGuIcLPZrSp/8/f8DGVLuL/QdIkxrc5DesIPy/Jv/eznMkOvOpLzYRVRotfPOwKyv/n
+        zUjS4qM9Mse51uq1PmcanRL47VdPAAAA//8DAP6pByx/AgAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '207'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 16:29:40 GMT
+      Etag:
+      - W/"b6ee8afdb6f276ab3ef48744a582a717"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Next-Page:
+      - ''
+      X-Offset:
+      - ''
+      X-Page:
+      - '1'
+      X-Per-Page:
+      - '20'
+      X-Prev-Page:
+      - ''
+      X-Request-Id:
+      - 3a4aae31-05a6-4935-9ee8-42d1ef4f10ce
+      X-Runtime:
+      - '0.290538'
+      X-Total:
+      - '10'
+      X-Total-Pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

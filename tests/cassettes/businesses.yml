@@ -1,0 +1,63 @@
+interactions:
+  - request:
+      body: null
+      headers:
+        Accept:
+          - '*/*'
+        Accept-Encoding:
+          - gzip, deflate
+        Connection:
+          - keep-alive
+        User-Agent:
+          - python-requests/2.22.0
+      method: GET
+      uri: https://api.citiesense.dev/community/1/businesses.json?fields=name
+    response:
+      body:
+        string: !!binary |
+          H4sIAKXVHF0AA5TRW0/CMBgG4L+y9Hpb2rU7lDsN1gOi6AwSjBdllFAprXQMAsb/7jiElcQbevkl
+          e/Z+7/fxA+QYtEC2HrH+DfCBMhq0gjQOcQSzDNUDvgQtTEMCY0IzH2g+F/UHjI+F8rgee7nRJfj1
+          j9AWa4bFBdCb5Xpp1kEuv4XjxO8rRkeNg0NEE0Syo0NgmGaI4iaPLKfC/hMoTl4YVRcEyotppZbb
+          4NpslGicQTpkz4vGiUKUuXFogkkTp8etLCXXvteWxUzocp+sU+mxQ25nC7ZeXxCtZ03Ji8L43l11
+          bL/LN8IuHfPhlV1dsu6TnBnFqzLYkU5vg6FlX9o9AMU4JidpdwGYoixqls7l3GhZeve6cPrv3DLY
+          P3cSmGJ6eInLkYTE5MR1K6WE9XetbcV+2UcxmdQjBxeYDek5HqUwQnD/sIvHGMHjHJ3+0TZGiU3d
+          J1crY0ujD6UaY+s7ff4BAAD//wMAz0GK2x4DAAA=
+      headers:
+        Cache-Control:
+          - max-age=0, private, must-revalidate
+        Content-Encoding:
+          - gzip
+        Content-Length:
+          - '371'
+        Content-Type:
+          - application/json
+        Date:
+          - Wed, 03 Jul 2019 16:19:49 GMT
+        Etag:
+          - W/"beee3618234b2b8f4816b95594c1848f"
+        Server:
+          - Caddy
+        Vary:
+          - Accept-Encoding, Origin
+        X-Next-Page:
+          - ''
+        X-Offset:
+          - ''
+        X-Page:
+          - '1'
+        X-Per-Page:
+          - '20'
+        X-Prev-Page:
+          - ''
+        X-Request-Id:
+          - f16f3cd6-c816-40b7-a8f3-3af908717752
+        X-Runtime:
+          - '0.285399'
+        X-Total:
+          - '10'
+        X-Total-Pages:
+          - '1'
+      status:
+        code: 200
+        message: OK
+version: 1

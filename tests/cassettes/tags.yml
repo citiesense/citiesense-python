@@ -1,0 +1,207 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/businesses/tags.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4pWCklMN1TSAVFGSrEAAAAA//8DANueaXUPAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"397eb3a5a675b382d106836fc654affc"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - ce41ef11-8307-451c-8394-19155bb4be46
+      X-Runtime:
+      - '0.066851'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/events/tags.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4pWCklMN1TSAVFGSrEAAAAA//8DANueaXUPAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '39'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"397eb3a5a675b382d106836fc654affc"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 7a95de7f-9ac8-4714-8068-1dec4126df56
+      X-Runtime:
+      - '0.023555'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/listings/tags.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"8a03e5dbc55465b6a6684f598a2abd5c"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 8b720d9e-e9ee-4379-aa52-7cf59fd6dc2b
+      X-Runtime:
+      - '0.060955'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/streetscape_assets/tags.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"8a03e5dbc55465b6a6684f598a2abd5c"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 1d606549-8de6-4eba-9eec-26f2f606fd95
+      X-Runtime:
+      - '0.043314'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/developments/tags.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAIZEHl0AA4qOBQAAAP//AwApu0wNAgAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '28'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 18:25:10 GMT
+      Etag:
+      - W/"8a03e5dbc55465b6a6684f598a2abd5c"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 92e689c1-f84b-4fb8-b179-62ff0bf05263
+      X-Runtime:
+      - '0.079555'
+    status:
+      code: 200
+      message: OK
+version: 1

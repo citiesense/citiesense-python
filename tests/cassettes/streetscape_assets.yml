@@ -1,0 +1,59 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/streetscape_assets.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIAK7wHF0AA3TMPQvCMBDG8e9ycy15ueTusrm6VDLoIA6BGBBDC1bpIH53OwhawfF54P87POCc
+        IUBMXZEdNFCHHsKKbCtMms18pBsEVK0XZdW8U87X0zhC6O+1Ppt3v11PZbNf9MTGIfFHIKfRkrP/
+        jHiZShcXBooWx6K9ZsIvCdF4YSXIZOTXO74AAAD//wMAukSbJtUAAAA=
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '155'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 18:15:10 GMT
+      Etag:
+      - W/"80f3b823e92dd5eed2e7ea4f97639c77"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Next-Page:
+      - ''
+      X-Offset:
+      - ''
+      X-Page:
+      - '1'
+      X-Per-Page:
+      - '20'
+      X-Prev-Page:
+      - ''
+      X-Request-Id:
+      - 138006b5-b46d-46ea-b931-c84c1e031ce5
+      X-Runtime:
+      - '0.201887'
+      X-Total:
+      - '3'
+      X-Total-Pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -1,0 +1,221 @@
+interactions:
+- request:
+    body: '{"resource": {"name": "foo", "address": "124 Shadwad", "lon": -70, "lat":
+      40, "the_geom": "POINT (-70 40)", "category": "Foo", "subcategories": ["Bar1",
+      "Bar2"], "tags": ["Tag1", "Tag2"]}}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '188'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+    method: POST
+    uri: https://api.citiesense.dev/community/1/businesses.json
+  response:
+    body:
+      string: !!binary |
+        H4sIACMJHl0AA6pWKi5NTk4tLlayKikqTdVRykxRslIyzU13yw1UqgUAAAD//wMAaektKx4AAAA=
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '56'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 14:11:47 GMT
+      Etag:
+      - W/"d2f0d837b6fc4481729738db2457aa0f"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 55752e3e-1e22-441c-88ec-802392daaa4f
+      X-Runtime:
+      - '1.191637'
+    status:
+      code: 201
+      message: Created
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/businesses/5mgFmQ.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIACMJHl0AA6pWykxRslIyzU13yw1U0lHKyc9TstI1N9AzALITS5SsTMDMxJSUotTiYqBKQyMT
+        heCMxJTyxBSlWgAAAAD//wMAl1QEAz4AAAA=
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '83'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 14:11:47 GMT
+      Etag:
+      - W/"f7afa895eac6add13358a66617098495"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 20cc1a0c-cc15-4804-987a-f5446b27b998
+      X-Runtime:
+      - '0.192632'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"resource": {"name": "bar"}}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '29'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.22.0
+    method: PUT
+    uri: https://api.citiesense.dev/community/1/businesses/5mgFmQ.json
+  response:
+    body:
+      string: !!binary |
+        H4sIACMJHl0AA6pWKi5NTk4tLlayKikqTa0FAAAA//8DAN/39mYQAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '42'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 14:11:47 GMT
+      Etag:
+      - W/"d7a3a7cd3d7affd12e5e90c6528a634a"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 12f17d25-9e71-4cb4-b332-0b3639b7863b
+      X-Runtime:
+      - '0.385053'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/businesses/5mgFmQ.json?fields=name
+  response:
+    body:
+      string: !!binary |
+        H4sIACMJHl0AA6pWykxRslIyzU13yw1U0lHKyc9TstI1N9AzALITS5SsTMDMvMTcVKCypMQipVoA
+        AAAA//8DAAKi720zAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '72'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 14:11:47 GMT
+      Etag:
+      - W/"10dd2df52770a3c29c8f8f7f6f278d49"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 9216ae22-1351-43db-bb7a-8727b4c5a4a7
+      X-Runtime:
+      - '0.095013'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '0'
+      User-Agent:
+      - python-requests/2.22.0
+    method: DELETE
+    uri: https://api.citiesense.dev/community/1/businesses/5mgFmQ.json
+  response:
+    body:
+      string: !!binary |
+        H4sIACQJHl0AA6pWKi5NTk4tLlayKikqTa0FAAAA//8DAN/39mYQAAAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '42'
+      Content-Type:
+      - application/json
+      Date:
+      - Thu, 04 Jul 2019 14:11:48 GMT
+      Etag:
+      - W/"72bf08212be549b1e602cf203f5e9430"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - 3a4ddf96-05e8-49db-9422-9bd98ebf562f
+      X-Runtime:
+      - '0.262482'
+    status:
+      code: 200
+      message: OK
+version: 1

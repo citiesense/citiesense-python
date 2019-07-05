@@ -1,0 +1,103 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/events.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAKbVHF0AA5SQSwvCQAyE/8uedUk22VePRRGEiiehiocFRQRpPRhFxP+u+Op6bI5DvplMVje1
+        36hCldNWfKUG6tA2qhh6q8lACPgU0kkVFDWD5Rjugy8wP8ui7gHUdiLHsgNIY3TI4QMwaB8w0m+/
+        alFc6nPRdizjLMBoDLl9dMSdfdodBcse9qm5CvQqTE5GVV44kvFgEF5DWXGwhPDRsfvAdSaX+t+A
+        LP8iX6THYLpWNS4F0z/iwFN8j8tJdmz5vn4AAAD//wMAypzCwgICAAA=
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '212'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 16:19:50 GMT
+      Etag:
+      - W/"2882323eff3daf93f630b9deede68e0e"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Next-Page:
+      - ''
+      X-Offset:
+      - ''
+      X-Page:
+      - '1'
+      X-Per-Page:
+      - '20'
+      X-Prev-Page:
+      - ''
+      X-Request-Id:
+      - 0b2b92c1-57a8-40cf-9303-628045773fec
+      X-Runtime:
+      - '0.176559'
+      X-Total:
+      - '10'
+      X-Total-Pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/events/BJou7M.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIAKbVHF0AAwzLsQrCMBAA0F85bk5DatLmkk2HFgQnB3EM5kChJJKmFBH/3awP3hdfET2eznmz
+        FxS45IS+s4PUB0XUNwgVvXbSqME4EhhiLLyu7RzfVQK5HowmmMNnySXCXJiTgGve6hOmRpweXPPe
+        7HYHonHUnVGW8PcHAAD//wMASK0odHoAAAA=
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '140'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 16:19:50 GMT
+      Etag:
+      - W/"6d05f2e6c77e965059584e345daeb9c2"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - fd3b0c16-3222-40b9-b4a7-4d91c6cb598f
+      X-Runtime:
+      - '0.032400'
+    status:
+      code: 200
+      message: OK
+version: 1

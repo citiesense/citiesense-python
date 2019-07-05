@@ -1,0 +1,55 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAvFHF0AA6RVyXKkMAz9F865zDXn+YuplEuAaFTtbbx0mkrl3yN5oenllgsgWZafpPfM10Dz
+        8D78Gd4GCwb58y8ax9ZCqOc4vH8NY45kMUZk698AU8qgVUCblMeg4v8lcTjMc+AY+YpnsiflA014
+        jBhHzc8JEp5c2OTT2RQ4nbqAznehM8YpkE/kLFtogGQrO0GDOBUYl2269wXOLEkmLCsLTDg6d1aa
+        7LnYV36SjQlOAUx3a4SICq+eArTzqovjguQx4JWGEXXvEL9cQqnUZqPQeO02LDYffi7v1VmJ82QT
+        cldSP4x7YiBsSiqXwntlj/52zqN7zxscH5V4gdJ2Z0tXeAOMYzj6tUuKx/w2BOTRMSBpVYLroV0y
+        Txg19hFE5FPnV2CfVxrc54UOmFdyYKxqRu8ilfyMIUuzYh4bJ6g0kcdTXi4Vlt3hrQGflLitvafZ
+        0o4gBwGYo3xfKNJIunZocznlEeueD6bNhcutdN55e2DmA//sHBUIaO2myrVOhPoKeKKYKn9UxRDd
+        RAxdzou12pBakr3yVmndwIBmF6KA05yMFfQA7yirm7nL0HDLV/Hnq4qeub8L88Jjg70TTYXINm9f
+        kU5rUgtiaoKUsU3OeLDbwdMK5SmWA3Msk3gt00U7FxTw6MQIkuGE/Qiywje6lP0iDzvjrOrEqu54
+        tOZmbL6s1I508yhJFsgZ2xVyVCgddHrTzcOV9BshPcjl9VBvHPyQdl1QO2+eqQfL4sJc8pmsEy1g
+        SG9KqF2Ww7RSwulwizpjFN9wkptl01GImxUtzNs98flCbUAwDHegenv5MuSzeCzCA42F1RtCKD8F
+        C3biUTzNWQzBurroiaUrau/4yc6Z9XGAdfD0oGPhLepVLx6uYLcsdON6s3qsS+tt1tXYlz4thriS
+        70V75pFQLHpXAnjk8pv4JUkSS6IDaFZH8JoxTVlH4nx//wAAAP//AwDxSE0SpAcAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '733'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 15:08:59 GMT
+      Etag:
+      - W/"83b1be6ba71511b107fc28cecf305e79"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - c8b9bca8-cbed-4e1a-9f36-2db2b6a129d7
+      X-Runtime:
+      - '0.133338'
+    status:
+      code: 200
+      message: OK
+version: 1

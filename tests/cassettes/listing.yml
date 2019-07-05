@@ -1,0 +1,102 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/listings.json
+  response:
+    body:
+      string: !!binary |
+        H4sIACHYHF0AA5TQTQuCQBAG4P+yZ1t2d8b98NilAbc8BkYHQYjEaoNII/zveVDzutfhfZh55/Rl
+        15plLBw89R1LWPu4s2xjkIM2Gsw4qF4sQ+BSOuNwSCbgypw+K5ByUMJaOQFwHEWKzi4geKB3GwOK
+        gi4h4qRO5NS4mA1PRfso0HvahhhwbKj+l7aCqzExV1CaS4tGyyXf3iryEflup6hcNQDuhNAa5x8J
+        rsGhhOH8AwAA//8DAFATJAPpAQAA
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '192'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 16:30:25 GMT
+      Etag:
+      - W/"c0d3d29a6aecf5c7766d4eec38c8876e"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Next-Page:
+      - ''
+      X-Offset:
+      - ''
+      X-Page:
+      - '1'
+      X-Per-Page:
+      - '20'
+      X-Prev-Page:
+      - ''
+      X-Request-Id:
+      - 50dafd7b-4b64-4330-89c8-9492065d15ac
+      X-Runtime:
+      - '0.226906'
+      X-Total:
+      - '10'
+      X-Total-Pages:
+      - '1'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.22.0
+    method: GET
+    uri: https://api.citiesense.dev/community/1/listings/pNLHxw.json?fields=address
+  response:
+    body:
+      string: !!binary |
+        H4sIACHYHF0AA6pWykxRslIq8PPxqChX0lHKyc9TstI1N9EzNjM3MzYHCiSWKFmZGOsZGlqaW5ro
+        KCWmpBSlFhcrWeWV5uTUAgAAAP//AwD/HhfSPwAAAA==
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Encoding:
+      - gzip
+      Content-Length:
+      - '88'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 03 Jul 2019 16:30:25 GMT
+      Etag:
+      - W/"0c74e460f009fd94b9776e0e2989a705"
+      Server:
+      - Caddy
+      Vary:
+      - Accept-Encoding, Origin
+      X-Request-Id:
+      - ae7bd300-9b19-4795-bed1-6ed04ddea2ea
+      X-Runtime:
+      - '0.070913'
+    status:
+      code: 200
+      message: OK
+version: 1
