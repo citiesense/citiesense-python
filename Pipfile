@@ -6,7 +6,6 @@ verify_ssl = true
 [dev-packages]
 pytest = ">=4.6.4"
 vcrpy = ">=2.0.1"
-black = "*"
 
 [packages]
 tortilla = ">=0.5.0"
