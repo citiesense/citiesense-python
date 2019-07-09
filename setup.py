@@ -3,7 +3,10 @@ from setuptools import setup, find_packages
 setup(
   name = "citiesense",
   version = "0.1",
-  packages = find_packages(),
+  packages=[
+    'citiesense',
+  ],
+  zip_safe=False,
   install_requires=[
     'tortilla>=0.5.0',
   ],
